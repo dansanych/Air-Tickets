@@ -20,6 +20,6 @@ java -jar Air-Tickets.jar
 java -jar Air-Tickets.jar departureCity arrivalCity percentile
 ```
 Использует заданные значения, где:
--- Город 1: departureCity;
--- Город 2: arrivalCity;
--- Желаемый процентиль: percentile; 
+- Город 1: departureCity;
+- Город 2: arrivalCity;
+- Желаемый процентиль: percentile; 
