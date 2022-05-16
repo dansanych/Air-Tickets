@@ -35,7 +35,7 @@ public class TicketStatistic {
         long percentileMinutes = getFlightTimePercentileBetweenCities(dataStorage, percentile, departureCity, arrivalCity)
                 .toMinutes();
 
-        System.out.printf("Среднее время полета между городами %s и %s составляет: %dч %dм\n", departureCity, arrivalCity, averageMinutes / 60, averageMinutes % 60);
+        System.out.printf("Среднее время полета между городами %s и %s составляет: %d ч %d мин\n", departureCity, arrivalCity, averageMinutes / 60, averageMinutes % 60);
         System.out.printf("%d-й процентиль времени полета между городами %s и %s составляет: %d ч %d мин\n", percentile, departureCity, arrivalCity, percentileMinutes / 60, percentileMinutes % 60);
     }
 
