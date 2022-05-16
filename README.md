@@ -9,7 +9,17 @@
 mvn clean install assembly:single
 ```
 
-### Запуск (Вар. 1)
+### Запуск Вариант 1 (default)
 ```
-java -jar biocad-json-parser.jar
+java -jar Air-Tickets.jar
 ```
+Использует стандартные значения из условия
+
+### Запуск Вариант 2 (custom)
+```
+java -jar Air-Tickets.jar departureCity arrivalCity percentile
+```
+Использует заданные значения, где
+Город 1: departureCity;
+Город 2: arrivalCity;
+Желаемый процентиль: percentile; 
